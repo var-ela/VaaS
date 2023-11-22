@@ -25,7 +25,7 @@ class Database {
     let uri =
       username && password
         ? // MODIFY URI SYNTAX BASED ON ADMIN INPUT
-          `${protocol}${username}:${password}${url}/${database}?retryWrites=true&w=majority`
+          `${protocol}${username}:${password}@${url}/${database}?retryWrites=true&w=majority`
         : `${protocol}${url}:${port}/${database}`;
     // INITIATE CONNECTION TO MONGODB
     if (process.env.CONTAINER) uri = `mongodb://mongo:27017`;

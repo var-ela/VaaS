@@ -46,6 +46,7 @@
     "cypress-mongodb": "^5.1.4",
     "isomorphic-fetch": "^3.0.0",
     "material-ui-popup-state": "^5.0.4",
+    "mongodb": "^6.3.0",
     "nodemon": "^2.0.19",
     "serve-static": "^1.15.0",
     "ts-node": "^10.9.1"
